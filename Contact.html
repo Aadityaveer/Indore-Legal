@@ -59,19 +59,18 @@
                     <div>
                         <i class="fa fa-envelope-o"></i>
                         <span>
-                            <h5>IndoreLegal@gmail.com</h5>
+                            <h5>indorelegal1@gmail.com</h5>
                             <p>Email us for Further queries</p>
                         </span>
                     </div>
                 </div>
                 <div class="contact-col">
-                    <form action="form-handler.php">
-                        <input type="text" name="first_name" placeholder="Enter your First name" required>
-                        <input type="text" name="last_name" placeholder="Enter your Last name" required>
+                    <form action="https://api.web3forms.com/submit" method="POST">
+                        <input type="hidden" name="access_key" value="a6a9d34d-0295-42aa-a773-904182c31e2f">
+                        <input type="text" name="name" placeholder="Enter your Full name" required>
                         <input type="email" name="email" placeholder="Enter your Email" required>
-                        <input type="text" name="subject" placeholder="Subject" required>
                         <textarea rows="8"name="message" placeholder="message"required></textarea>
-                        <button type="submit" class="hero-btn red-btn" onclick="sendMail()">Send Message</button>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
                     </form>
                 </div>
             </div>
